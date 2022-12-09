@@ -1,13 +1,17 @@
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
 import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Calculator />
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <Calculator />
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
