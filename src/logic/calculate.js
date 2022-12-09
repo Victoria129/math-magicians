@@ -91,7 +91,6 @@ export default function calculate(obj, operatorName) {
     };
   }
 
-
   if (!obj.next) {
     return { operation: operatorName };
   }
