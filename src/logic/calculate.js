@@ -1,7 +1,7 @@
 import operate from './operate';
 
-function isNumber(item) {
-  return !!item.match(/[0-9]+/);
+function isNumber(operator) {
+  return !!operator.match(/[0-9]+/);
 }
 
 export default function calculate(obj, operatorName) {
