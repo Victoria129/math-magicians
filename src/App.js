@@ -1,17 +1,24 @@
-/* eslint-disable react/prefer-stateless-function */
-import React from 'react';
-import Calculator from './components/Calculator';
+import React, { useState } from 'react';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <Calculator />
-        </header>
-      </div>
-    );
-  }
-}
+import Calculator from './components/Calculator';
+import calculate from './logic/calculate';
+
+const App = () => {
+  const [state, setState] = useState({
+    total: 0,
+    next: 0,
+  });
+  const handleClick = (e) => {
+    setState((old) => calculate(old, e.target.innerText));
+  };
+
+  const { total, next } = state;
+  const calcStates = { total, next };
+  return (
+    <div className="App">
+      <Calculator handleClick={handleClick} calcStates={calcStates} />
+    </div>
+  );
+};
 
 export default App;
