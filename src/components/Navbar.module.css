@@ -1,0 +1,14 @@
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  position: relative;
+}
+
+header h1 {
+  font-size: 45px;
+  position: absolute;
+  left: 0;
+  align-items: center;
+}

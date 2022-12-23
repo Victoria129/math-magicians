@@ -12,144 +12,143 @@ const Calculator = (props) => {
   } else if (total) {
     val = total;
   }
-
   return (
-    <div className="wrapper">
+    <div className="container">
       <input
-        className="operator display"
+        className="grid-item display"
         placeholder="0"
         value={val}
         readOnly
       />
       <button
         type="button"
-        className="operator AC"
+        className="grid-item AC"
         onClick={handleClick}
       >
         AC
       </button>
       <button
         type="button"
-        className="operator operations"
+        className="grid-item operations"
         onClick={handleClick}
       >
         +/-
       </button>
       <button
         type="button"
-        className="operator percentage"
+        className="grid-item procentage"
         onClick={handleClick}
       >
         %
       </button>
       <button
         type="button"
-        className="operator divide operation"
+        className="grid-item divide operation"
         onClick={handleClick}
       >
         ÷
       </button>
       <button
         type="button"
-        className="operator seven"
+        className="grid-item seven"
         onClick={handleClick}
       >
         7
       </button>
       <button
         type="button"
-        className="operator eight"
+        className="grid-item eight"
         onClick={handleClick}
       >
         8
       </button>
       <button
         type="button"
-        className="operator nine"
+        className="grid-item nine"
         onClick={handleClick}
       >
         9
       </button>
       <button
         type="button"
-        className="operator multiply operation"
+        className="grid-item multiply operation"
         onClick={handleClick}
       >
         ×
       </button>
       <button
         type="button"
-        className="operator four"
+        className="grid-item four"
         onClick={handleClick}
       >
         4
       </button>
       <button
         type="button"
-        className="operator five"
+        className="grid-item five"
         onClick={handleClick}
       >
         5
       </button>
       <button
         type="button"
-        className="operator six"
+        className="grid-item six"
         onClick={handleClick}
       >
         6
       </button>
       <button
         type="button"
-        className="operator minus operation"
+        className="grid-item minus operation"
         onClick={handleClick}
       >
         -
       </button>
       <button
         type="button"
-        className="operator one"
+        className="grid-item one"
         onClick={handleClick}
       >
         1
       </button>
       <button
         type="button"
-        className="operator two"
+        className="grid-item two"
         onClick={handleClick}
       >
         2
       </button>
       <button
         type="button"
-        className="operator three"
+        className="grid-item three"
         onClick={handleClick}
       >
         3
       </button>
       <button
         type="button"
-        className="operator plus operation"
+        className="grid-item plus operation"
         onClick={handleClick}
       >
         +
       </button>
       <button
         type="button"
-        className="operator zero"
+        className="grid-item zero"
         onClick={handleClick}
       >
         0
       </button>
       <button
         type="button"
-        className="operator period"
+        className="grid-item period"
         onClick={handleClick}
       >
         .
       </button>
       <button
         type="button"
-        className="operator equal operation"
+        className="grid-item equal operation"
         onClick={handleClick}
       >
         =
