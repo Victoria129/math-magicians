@@ -6,9 +6,8 @@
   font-size: 110%;
 }
 
-.mainCalc {
-  margin: 0;
-  padding: 0;
+.wrapper {
+  margin: 100px 0 200px 700px;
   border-radius: 0;
   box-sizing: border-box;
 }
@@ -35,9 +34,14 @@ input[type="button"]:active {
 
 .screen-row input {
   width: 400px;
-  background: rgb(155, 153, 153);
+  background: rgb(167, 164, 164);
   border: 0;
   color: #fff;
   padding: 10px;
   text-align: right;
+}
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
 }

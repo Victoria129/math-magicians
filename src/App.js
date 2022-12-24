@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
 import Calculator from './components/Calculator';
+import Home from './components/Home';
+import { Navbar } from './components/Navbar';
+import Quote from './components/Quote';
 import calculate from './logic/calculate';
 
 const App = () => {
@@ -15,9 +19,14 @@ const App = () => {
   const { total, next } = state;
   const calcStates = { total, next };
   return (
-    <div className="App">
-      <Calculator handleClick={handleClick} calcStates={calcStates} />
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator handleClick={handleClick} calcStates={calcStates} />} />
+        <Route path="quote" element={<Quote />} />
+      </Routes>
+    </>
   );
 };
 
