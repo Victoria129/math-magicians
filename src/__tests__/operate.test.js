@@ -11,7 +11,7 @@ describe('test operate function', () => {
     expect(operate(6, 6, 'x')).toBe('36');
   });
   test('expect 13 ÷ 0 to be "Not divisable by 0."', () => {
-    expect(operate(1, 0, '÷')).toBe("Not devisable by 0.");
+    expect(operate(1, 0, '÷')).toBe('Not devisable by 0.');
   });
   test('expect 100 % 5 to be "0"', () => {
     expect(operate(100, 5, '%')).toBe('0');
