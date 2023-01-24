@@ -9,18 +9,18 @@ export default function operate(numberOne, numberTwo, operation) {
   if (operation === '-') {
     return one.minus(two).toString();
   }
-  if (operation === '×') {
+  if (operation === 'x') {
     return one.times(two).toString();
   }
   if (operation === '÷') {
     try {
       return one.div(two).toString();
     } catch (err) {
-      return "Can't divide by 0.";
+      return 'Not devisable by 0.';
     }
   }
   if (operation === '%') {
     return one.mod(two).toString();
   }
-  throw Error(`Unknown operation '${operation}'`);
+  throw Error(`Operation not found '${operation}'`);
 }

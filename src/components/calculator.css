@@ -3,7 +3,16 @@
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  background-color: rgb(235, 229, 229);
+  border: 1px solid rgb(200, 200, 200);
+  cursor: pointer;
 }
 
 .operator {

@@ -13,7 +13,7 @@ const Calculator = (props) => {
     val = total;
   }
   return (
-    <div className="container">
+    <div className="wrapper">
       <input
         className="grid-item display"
         placeholder="0"
