@@ -1,6 +1,6 @@
 .nav {
-  padding: 20px;
   display: flex;
+  padding: 20px;
   justify-content: flex-end;
   gap: 20px;
   position: relative;
