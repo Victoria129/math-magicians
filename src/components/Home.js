@@ -5,8 +5,8 @@ const Home = () => (
   <div className={conCSS.container}>
     <h1>Home Page</h1>
     <p>
-      Lorem ipsum aliquid nemo non corporis?
-      Obcaecati, dicta ea fugiat iste saepe iure!
+      Great minds think big. Giants in science create
+      sensible values that bring light to the most obscure things!
     </p>
   </div>
 
