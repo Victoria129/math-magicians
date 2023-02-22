@@ -5,9 +5,8 @@ const Quote = () => (
   <div className={conCSS.container}>
     <h1>Quote</h1>
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      Blanditiis optio porro consequatur, ratione ipsam, perspiciatis
-      enim officiis earum sit vero aperiam iste! Et beatae cumque expedita odit!
+      Great minds think big. Giants in science create
+      sensible values that bring light to the most obscure things!
     </p>
   </div>
 );
