@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-size: 110%;
+}
+
+.wrapper {
+  margin: 100px 0 200px 700px;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  width: 100px;
+  background: lightgray;
+  border: 1px solid darkgray;
+  padding: 15px 20px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type="button"]:active {
+  background: #fff;
+}
+
+#root {
+  text-align: center;
+}
+
+.screen-row input {
+  width: 400px;
+  background: rgb(167, 164, 164);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+}
+
+nav a.active {
+  text-decoration: none;
+  font-weight: bold;
+}
